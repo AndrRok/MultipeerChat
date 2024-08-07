@@ -14,6 +14,7 @@
 		622D33E12C639ECD0048BEAE /* MultipeerChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622D33E02C639ECD0048BEAE /* MultipeerChatTests.swift */; };
 		622D33EB2C639ECD0048BEAE /* MultipeerChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622D33EA2C639ECD0048BEAE /* MultipeerChatUITests.swift */; };
 		622D33ED2C639ECD0048BEAE /* MultipeerChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622D33EC2C639ECD0048BEAE /* MultipeerChatUITestsLaunchTests.swift */; };
+		622D33FA2C63A3280048BEAE /* MultipeerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622D33F92C63A3280048BEAE /* MultipeerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		622D33E62C639ECD0048BEAE /* MultipeerChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipeerChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		622D33EA2C639ECD0048BEAE /* MultipeerChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerChatUITests.swift; sourceTree = "<group>"; };
 		622D33EC2C639ECD0048BEAE /* MultipeerChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		622D33F92C63A3280048BEAE /* MultipeerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				622D33D22C639ECC0048BEAE /* Assets.xcassets */,
 				622D33D42C639ECC0048BEAE /* MultipeerChat.entitlements */,
 				622D33D52C639ECC0048BEAE /* Preview Content */,
+				622D33F92C63A3280048BEAE /* MultipeerManager.swift */,
 			);
 			path = MultipeerChat;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				622D33D12C639ECA0048BEAE /* ContentView.swift in Sources */,
+				622D33FA2C63A3280048BEAE /* MultipeerManager.swift in Sources */,
 				622D33CF2C639ECA0048BEAE /* MultipeerChatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
