@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		622D33CF2C639ECA0048BEAE /* MultipeerChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622D33CE2C639ECA0048BEAE /* MultipeerChatApp.swift */; };
+		622D33D12C639ECA0048BEAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622D33D02C639ECA0048BEAE /* ContentView.swift */; };
+		622D33D32C639ECC0048BEAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 622D33D22C639ECC0048BEAE /* Assets.xcassets */; };
+		622D33D72C639ECC0048BEAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 622D33D62C639ECC0048BEAE /* Preview Assets.xcassets */; };
+		622D33E12C639ECD0048BEAE /* MultipeerChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622D33E02C639ECD0048BEAE /* MultipeerChatTests.swift */; };
+		622D33EB2C639ECD0048BEAE /* MultipeerChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622D33EA2C639ECD0048BEAE /* MultipeerChatUITests.swift */; };
+		622D33ED2C639ECD0048BEAE /* MultipeerChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622D33EC2C639ECD0048BEAE /* MultipeerChatUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		622D33DD2C639ECD0048BEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 622D33C32C639ECA0048BEAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 622D33CA2C639ECA0048BEAE;
+			remoteInfo = MultipeerChat;
+		};
+		622D33E72C639ECD0048BEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 622D33C32C639ECA0048BEAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 622D33CA2C639ECA0048BEAE;
+			remoteInfo = MultipeerChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		622D33CB2C639ECA0048BEAE /* MultipeerChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipeerChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		622D33CE2C639ECA0048BEAE /* MultipeerChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerChatApp.swift; sourceTree = "<group>"; };
+		622D33D02C639ECA0048BEAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		622D33D22C639ECC0048BEAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		622D33D42C639ECC0048BEAE /* MultipeerChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MultipeerChat.entitlements; sourceTree = "<group>"; };
+		622D33D62C639ECC0048BEAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		622D33DC2C639ECD0048BEAE /* MultipeerChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipeerChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		622D33E02C639ECD0048BEAE /* MultipeerChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerChatTests.swift; sourceTree = "<group>"; };
+		622D33E62C639ECD0048BEAE /* MultipeerChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipeerChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		622D33EA2C639ECD0048BEAE /* MultipeerChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerChatUITests.swift; sourceTree = "<group>"; };
+		622D33EC2C639ECD0048BEAE /* MultipeerChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		622D33C82C639ECA0048BEAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622D33D92C639ECD0048BEAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622D33E32C639ECD0048BEAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		622D33C22C639ECA0048BEAE = {
+			isa = PBXGroup;
+			children = (
+				622D33CD2C639ECA0048BEAE /* MultipeerChat */,
+				622D33DF2C639ECD0048BEAE /* MultipeerChatTests */,
+				622D33E92C639ECD0048BEAE /* MultipeerChatUITests */,
+				622D33CC2C639ECA0048BEAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		622D33CC2C639ECA0048BEAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				622D33CB2C639ECA0048BEAE /* MultipeerChat.app */,
+				622D33DC2C639ECD0048BEAE /* MultipeerChatTests.xctest */,
+				622D33E62C639ECD0048BEAE /* MultipeerChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		622D33CD2C639ECA0048BEAE /* MultipeerChat */ = {
+			isa = PBXGroup;
+			children = (
+				622D33CE2C639ECA0048BEAE /* MultipeerChatApp.swift */,
+				622D33D02C639ECA0048BEAE /* ContentView.swift */,
+				622D33D22C639ECC0048BEAE /* Assets.xcassets */,
+				622D33D42C639ECC0048BEAE /* MultipeerChat.entitlements */,
+				622D33D52C639ECC0048BEAE /* Preview Content */,
+			);
+			path = MultipeerChat;
+			sourceTree = "<group>";
+		};
+		622D33D52C639ECC0048BEAE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				622D33D62C639ECC0048BEAE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		622D33DF2C639ECD0048BEAE /* MultipeerChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				622D33E02C639ECD0048BEAE /* MultipeerChatTests.swift */,
+			);
+			path = MultipeerChatTests;
+			sourceTree = "<group>";
+		};
+		622D33E92C639ECD0048BEAE /* MultipeerChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				622D33EA2C639ECD0048BEAE /* MultipeerChatUITests.swift */,
+				622D33EC2C639ECD0048BEAE /* MultipeerChatUITestsLaunchTests.swift */,
+			);
+			path = MultipeerChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		622D33CA2C639ECA0048BEAE /* MultipeerChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 622D33F02C639ECD0048BEAE /* Build configuration list for PBXNativeTarget "MultipeerChat" */;
+			buildPhases = (
+				622D33C72C639ECA0048BEAE /* Sources */,
+				622D33C82C639ECA0048BEAE /* Frameworks */,
+				622D33C92C639ECA0048BEAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipeerChat;
+			productName = MultipeerChat;
+			productReference = 622D33CB2C639ECA0048BEAE /* MultipeerChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		622D33DB2C639ECD0048BEAE /* MultipeerChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 622D33F32C639ECD0048BEAE /* Build configuration list for PBXNativeTarget "MultipeerChatTests" */;
+			buildPhases = (
+				622D33D82C639ECD0048BEAE /* Sources */,
+				622D33D92C639ECD0048BEAE /* Frameworks */,
+				622D33DA2C639ECD0048BEAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				622D33DE2C639ECD0048BEAE /* PBXTargetDependency */,
+			);
+			name = MultipeerChatTests;
+			productName = MultipeerChatTests;
+			productReference = 622D33DC2C639ECD0048BEAE /* MultipeerChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		622D33E52C639ECD0048BEAE /* MultipeerChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 622D33F62C639ECD0048BEAE /* Build configuration list for PBXNativeTarget "MultipeerChatUITests" */;
+			buildPhases = (
+				622D33E22C639ECD0048BEAE /* Sources */,
+				622D33E32C639ECD0048BEAE /* Frameworks */,
+				622D33E42C639ECD0048BEAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				622D33E82C639ECD0048BEAE /* PBXTargetDependency */,
+			);
+			name = MultipeerChatUITests;
+			productName = MultipeerChatUITests;
+			productReference = 622D33E62C639ECD0048BEAE /* MultipeerChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		622D33C32C639ECA0048BEAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					622D33CA2C639ECA0048BEAE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					622D33DB2C639ECD0048BEAE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 622D33CA2C639ECA0048BEAE;
+					};
+					622D33E52C639ECD0048BEAE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 622D33CA2C639ECA0048BEAE;
+					};
+				};
+			};
+			buildConfigurationList = 622D33C62C639ECA0048BEAE /* Build configuration list for PBXProject "MultipeerChat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 622D33C22C639ECA0048BEAE;
+			productRefGroup = 622D33CC2C639ECA0048BEAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				622D33CA2C639ECA0048BEAE /* MultipeerChat */,
+				622D33DB2C639ECD0048BEAE /* MultipeerChatTests */,
+				622D33E52C639ECD0048BEAE /* MultipeerChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		622D33C92C639ECA0048BEAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622D33D72C639ECC0048BEAE /* Preview Assets.xcassets in Resources */,
+				622D33D32C639ECC0048BEAE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622D33DA2C639ECD0048BEAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622D33E42C639ECD0048BEAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		622D33C72C639ECA0048BEAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622D33D12C639ECA0048BEAE /* ContentView.swift in Sources */,
+				622D33CF2C639ECA0048BEAE /* MultipeerChatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622D33D82C639ECD0048BEAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622D33E12C639ECD0048BEAE /* MultipeerChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622D33E22C639ECD0048BEAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622D33ED2C639ECD0048BEAE /* MultipeerChatUITestsLaunchTests.swift in Sources */,
+				622D33EB2C639ECD0048BEAE /* MultipeerChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		622D33DE2C639ECD0048BEAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 622D33CA2C639ECA0048BEAE /* MultipeerChat */;
+			targetProxy = 622D33DD2C639ECD0048BEAE /* PBXContainerItemProxy */;
+		};
+		622D33E82C639ECD0048BEAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 622D33CA2C639ECA0048BEAE /* MultipeerChat */;
+			targetProxy = 622D33E72C639ECD0048BEAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		622D33EE2C639ECD0048BEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		622D33EF2C639ECD0048BEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		622D33F12C639ECD0048BEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MultipeerChat/MultipeerChat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MultipeerChat/Preview Content\"";
+				DEVELOPMENT_TEAM = 8JNHMF9MWK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AR.MultipeerChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		622D33F22C639ECD0048BEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MultipeerChat/MultipeerChat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MultipeerChat/Preview Content\"";
+				DEVELOPMENT_TEAM = 8JNHMF9MWK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AR.MultipeerChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		622D33F42C639ECD0048BEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JNHMF9MWK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AR.MultipeerChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultipeerChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MultipeerChat";
+			};
+			name = Debug;
+		};
+		622D33F52C639ECD0048BEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JNHMF9MWK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AR.MultipeerChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultipeerChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MultipeerChat";
+			};
+			name = Release;
+		};
+		622D33F72C639ECD0048BEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JNHMF9MWK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AR.MultipeerChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MultipeerChat;
+			};
+			name = Debug;
+		};
+		622D33F82C639ECD0048BEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JNHMF9MWK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AR.MultipeerChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MultipeerChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		622D33C62C639ECA0048BEAE /* Build configuration list for PBXProject "MultipeerChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				622D33EE2C639ECD0048BEAE /* Debug */,
+				622D33EF2C639ECD0048BEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		622D33F02C639ECD0048BEAE /* Build configuration list for PBXNativeTarget "MultipeerChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				622D33F12C639ECD0048BEAE /* Debug */,
+				622D33F22C639ECD0048BEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		622D33F32C639ECD0048BEAE /* Build configuration list for PBXNativeTarget "MultipeerChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				622D33F42C639ECD0048BEAE /* Debug */,
+				622D33F52C639ECD0048BEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		622D33F62C639ECD0048BEAE /* Build configuration list for PBXNativeTarget "MultipeerChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				622D33F72C639ECD0048BEAE /* Debug */,
+				622D33F82C639ECD0048BEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 622D33C32C639ECA0048BEAE /* Project object */;
+}
